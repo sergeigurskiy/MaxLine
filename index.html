@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ML</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="main">
+            <div class="container">
+                <div class="main-header">
+                    <a href="#" class="main-header__logo">
+                        <img src="images/logo.svg" alt="logo">
+                    </a>
+                    <nav class="main-menu">
+                        <ul class="main-menu__icons">
+                            <li><a href="#"><svg class="main-menu__svg main-menu__svg01"><use xlink:href='images/icons/sprite.svg#01'></use></svg></a></li>
+                            <li><a href="#"><svg class="main-menu__svg main-menu__svg02"><use xlink:href='images/icons/sprite.svg#02'></use></svg></a></li>
+                            <li><a href="#"><svg class="main-menu__svg main-menu__svg03"><use xlink:href='images/icons/sprite.svg#03'></use></svg></a></li>
+                            <li><a href="#"><svg class="main-menu__svg main-menu__svg04"><use xlink:href='images/icons/sprite.svg#04'></use></svg></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-content">
+                    <div class="main-content__img">
+                        <img src="images/cup.svg" alt="cup">
+                    </div>
+                    <div class="main-content__textWho">
+                        <div class="main-content__who">кто</div>
+                        <div class="main-content__text">станет участником <span>лиги чемпионов?</span></div>
+                    </div>
+                    <div class="main-content__prognoz">
+                        <div class="main-content__do"><div>сделай прогноз</div></div>
+                        <div class="main-content__win">и выйграй до</div>
+                    </div>
+                    <div class="main-content__money">2000 byn</div>
+                </div>
+            </div>
+        </div>
+        <div class="block-match">
+            <div class="block-match__shadow">
+                <div class="container">
+                    <div class="block-match__title">выбери<span class="span"> 6 команд</span>,<span class="block-match__subtitle">которые пройдут в лигу чемпионов</span></div>
+                    <form method="POST" name="contest" action="#">
+                        <div class="block-match__body">
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="10алимпиакос">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img01">
+                                        <img src="images/teams/01.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Олимпиакос</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="2Славия П">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img02">
+                                        <img src="images/teams/02.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Славия П</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="33альцбург">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img03">
+                                        <img src="images/teams/03.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Зальцбург</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="4Краснодар">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img04">
+                                        <img src="images/teams/04.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Краснодар</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="5Динамо-Киев">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img05">
+                                        <img src="images/teams/05.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Динамо-Киев</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="6Гент">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img06">
+                                        <img src="images/teams/06.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Гент</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="7паок">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img07">
+                                        <img src="images/teams/07.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>ПАОК</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="8Мольде">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img08">
+                                        <img src="images/teams/08.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Мольде</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="9Ференцварош">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img09">
+                                        <img src="images/teams/09.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Ференцварош</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="10М. Тель-Авив">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img01">
+                                        <img src="images/teams/10.png" alt="team10">
+                                    </div>
+                                    <div class="block-match__btn"><div>М. Тель-Авив</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="11Митьюлланд">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img11">
+                                        <img src="images/teams/11.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Митьюлланд</div></div>
+                                </div>
+                            </label>
+                            <label class="block-match__column">
+                                <input class="block-match__label" name="team[]" type="checkbox" value="12 Омония">
+                                <div class="block-match__item">
+                                    <div class="block-match__img block-match--img12">
+                                        <img src="images/teams/12.png" alt="team01">
+                                    </div>
+                                    <div class="block-match__btn"><div>Омония</div></div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="block-match__form">
+                            <div class="block-match__desc">Укажи номер игрового счета maxline.by</div>
+                            <div class="block-match__input">
+                                <input class="name-input _req" data-rule="number" placeholder="XXXXX" type="text">
+                            </div>
+                            <div><button class="block-match__button" value="Дать прогноз" type="submit">Дать прогноз</button></div>
+                        </div>
+                    </form>
+                    <div class="block-match__register">
+                        <div class="block-match__text">нет игрового счета?</div>
+                        <a href="#" class="block-match__reg"><div>регистрируйся</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <a class="footer__text footer__text--attention" href="#">Узнать подробности конкурса</a>
+            </div>
+        </div>
+        <div class="block-popup hide">
+            <div class="block-popup__popup">
+                <div class="block-popup__close"><span></span></div>
+                <div class="block-popup__fixed">
+                    <div class="block-popup__title">Maxline предлагает побороться за 2000 BYN! <span>Турнир пройдет с 18:00 18.09.20 по 22:00 28.09.20.</span></div>
+                    <div class="block-popup__rules">
+                        <div class="block-popup__text">Для участия в турнире необходимо:</div>
+                        <div class="block-popup__rule">
+                            <p class="block-popup__rule1">Быть зарегистрированным и верифицированным на любом из <a href="#">онлайн-ресурсов Maxline</a></p>
+                            <p class="block-popup__rule2">Пополнить свой игровой счет на сумму от 5 BYN с 00:00 18.09.20 по 22:00 28.09.20;**</p>
+                            <p class="block-popup__rule3">Верно предсказать 6 команд, которые по итогам квалификации пройдут в Лигу Чемпионов.***</p>
+                        </div>
+                    </div>
+                    <div class="block-popup__comment">*Принимать участие в турнире могут все зарегистрированные на Maxline пользователи. **Пополнить игровой счет Maxline можно любым из доступных способов. ***Если по каким-либо причинам будет приостановлен чемпионат, то итоги турнира будут подведены после его возобновления.</div>
+                    <div class="block-popup__info">
+                        <p>После выбора 6 команд из 12, которые, по вашему мнению, по итогам квалификации пройдут в Лигу Чемпионов, необходимо указать номер игрового счета и нажать кнопку <span>«Дать прогноз»</span>. Также проверить наличие пополнения до окончания приема прогнозов.</p>
+                        <p>Один участник может оставить <span>один прогноз</span>. Если от одного участника будет оставлено несколько прогнозов,то во внимание будет приниматься прогноз,который был зафиксирован первым.</p>
+                    </div>
+                    <div class="block-popup__info2">
+                        <p>Участник, верно предсказавший 6 команд прошедших в Лигу Чемпионов, получит <span>2000 BYN</span> на бонусный счет Maxline.</p>
+                        <p>Объявление результатов будет опубликовано на сайте maxline.by и в социальных сетях Maxline.</p>
+                        <p>Если окажется несколько участников, которые верно угадают 6 прошедших команд в Лигу Чемпионов, то данный бонус будет разделен пропорционально между ними.</p>
+                        <p>Полученный бонус необходимо отыграть с коэффициентом <span>не ниже 1,6</span> (сделать одну или несколько ставок). Ставки типа <span>Система , VIP-ставки, на TV-игры, Live-лотереи, финансовые ставки</span> и <span>Cash Out</span> в отыгрыше не учитываются.</p>
+                        <p>Зачисление бонуса происходит в течение 3 часов после объявления результатов турнира.</p>
+                        <p>Данное предложение доступно один раз для одного человека, семьи, домашнего адреса, адреса электронной почты, номера телефона, общего устройства, одного IP-адреса.</p>
+                        <p>Может производиться проверка регистрационных данных и транзакций по любым причинам. Если вследствие проверки будет выявлено, что участник/-и использует/-ют запрещенные стратегии или мошенничество, в том числе мультиаккаунтинг, компания может не производить зачисление бонуса.</p>
+                    </div>
+                    <a class="block-popup__btn" href="#"><div>Зарегистрироваться</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
